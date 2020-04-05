@@ -7,7 +7,6 @@ This is an app that was bootstrapped with [Create React App](https://github.com/
   <img src='2.png' width='40%' />
   <img src='3.png' width='40%' />
   <img src='4.png' width='40%' />
-  <img src='5.png' width='40%' />
 </div>
 
 The principle behind how this app creates a color palette is how it's described in the article [A Simple Web Developer’s Color Guide](https://www.smashingmagazine.com/2016/04/web-developer-guide-color/) by [Laura Elizabeth.](https://github.com/laura-elizabeth) <br>
