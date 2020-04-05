@@ -1,4 +1,4 @@
-# [Swatch](http://fazeelanizam.com/swatch)
+# [Swatch](https://fazeelanizam13.github.io/swatch/)
 
 This is an app that was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) which lets you pick colors, save and access them later. You can also select two colors out of your saved ones as base and accent colors and the app will create a basic five-color palette for your project, which you also can save and access later (using local storage.)
 
