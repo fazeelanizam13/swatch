@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Railway-Regular';
+  src: url("font/Raleway-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body, button.showSwatches{
+  font-family: 'Railway-Regular';
+}
+#box{
+  /* background-color: #bbb; */
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1em;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+img.delete{
+  visibility: hidden;
+  width: 25px;
+  margin: 5px;
+  transition: .2s all ease-in;
+}
+
+.swatch:hover img.delete{
+  visibility: visible;
+}
+
+.palette:hover img.delete{
+  visibility: visible;
+}
+
+@media only screen and (min-width: 768px){
+  #box{
+    width: 75vw;
+    margin: 0 auto;
+  }
+}
